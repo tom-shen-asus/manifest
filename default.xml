@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="asus"
+           fetch=".."
+           review="http://gerrit.corpnet.asus/" />
+  <default revision="ms-iot-imx_8m"
+           remote="asus" sync-c="true" sync-s="true"/>
+  <project path="MSRSec" name="nxp/MSRSec" />
+  <project path="cst" name="nxp/cst" />
+  <project path="fireware-imx-8.1" name="nxp/fireware-imx-8.1" />
+  <project path="imx-atf" name="nxp/imx-atf" />
+  <project path="imx-iotcore" name="nxp/imx-iotcore" />
+  <project path="imx-mkimage" name="nxp/imx-mkimage" />
+  <project path="iot-adk-addonkit" name="nxp/iot-adk-addonkit" />
+  <project path="mu_platform_nxp" name="nxp/mu_platform_nxp" />
+  <project path="optee_os" name="nxp/optee_os" />
+  <project path="u-boot" name="nxp/u-boot" />
+</manifest>
