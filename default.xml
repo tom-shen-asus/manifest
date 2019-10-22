@@ -7,7 +7,7 @@
            remote="asus" sync-c="true" sync-s="true"/>
   <project path="MSRSec" name="nxp/MSRSec" />
   <project path="cst" name="nxp/cst" />
-  <project path="fireware-imx-8.1" name="nxp/fireware-imx-8.1" />
+  <project path="firmware-imx-8.1" name="nxp/firmware-imx-8.1" />
   <project path="imx-atf" name="nxp/imx-atf" />
   <project path="imx-iotcore" name="nxp/imx-iotcore" />
   <project path="imx-mkimage" name="nxp/imx-mkimage" />
