@@ -15,4 +15,5 @@
   <project path="mu_platform_nxp" name="nxp/mu_platform_nxp" />
   <project path="optee_os" name="nxp/optee_os" />
   <project path="u-boot" name="nxp/u-boot" />
+  <project path="workspace" name="nxp/workspace" />
 </manifest>
