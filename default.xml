@@ -15,5 +15,8 @@
   <project path="mu_platform_nxp" name="nxp/mu_platform_nxp" />
   <project path="optee_os" name="nxp/optee_os" />
   <project path="u-boot" name="nxp/u-boot" />
-  <project path="workspace" name="nxp/workspace" />
+  <project path="workspace" name="nxp/workspace" >
+    <linkfile dest="buildFirmware_NXPEVK.sh" src="buildFirmware_NXPEVK.sh"/>
+    <linkfile dest="buildFirmware_PE100A.sh" src="buildFirmware_PE100A.sh"/>
+  </project>
 </manifest>
