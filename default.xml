@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="asus"
+  <remote  name="origin"
            fetch=".."
-           review="http://gerrit.corpnet.asus/" />
+           review="https://github.com/" />
   <default revision="ms-iot-imx_8m"
-           remote="asus" sync-c="true" sync-s="true"/>
-  <project path="MSRSec" name="nxp/MSRSec" />
-  <project path="cst" name="nxp/cst" />
-  <project path="firmware-imx-8.1" name="nxp/firmware-imx-8.1" />
-  <project path="imx-atf" name="nxp/imx-atf" />
-  <project path="imx-iotcore" name="nxp/imx-iotcore" />
-  <project path="imx-mkimage" name="nxp/imx-mkimage" />
-  <project path="iot-adk-addonkit" name="nxp/iot-adk-addonkit" />
-  <project path="mu_platform_nxp" name="nxp/mu_platform_nxp" />
-  <project path="optee_os" name="nxp/optee_os" />
-  <project path="u-boot" name="nxp/u-boot" />
-  <project path="workspace" name="nxp/workspace" >
+           remote="origin" sync-c="true" sync-s="true"/>
+
+  <project path="MSRSec" name="IanSY-Huang/MSRSec" />
+  <project path="cst" name="IanSY-Huang/cst" />
+  <project path="firmware-imx-8.1" name="IanSY-Huang/firmware-imx-8.1" />
+  <project path="imx-atf" name="IanSY-Huang/imx-atf" />
+  <project path="imx-iotcore" name="IanSY-Huang/imx-iotcore" />
+  <project path="imx-mkimage" name="IanSY-Huang/imx-mkimage" />
+  <project path="iot-adk-addonkit" name="IanSY-Huang/iot-adk-addonkit" />
+  <project path="mu_platform_nxp" name="IanSY-Huang/mu_platform_nxp" />
+  <project path="optee_os" name="IanSY-Huang/optee_os" />
+  <project path="u-boot" name="IanSY-Huang/u-boot" />
+  <project path="workspace" name="IanSY-Huang/workspace" >
     <linkfile dest="buildFirmware_NXPEVK.sh" src="buildFirmware_NXPEVK.sh"/>
     <linkfile dest="buildFirmware_PE100A.sh" src="buildFirmware_PE100A.sh"/>
   </project>
