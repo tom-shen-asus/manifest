@@ -18,6 +18,7 @@
   <project path="u-boot" name="tom-shen-asus/u-boot" />
   <project path="workspace" name="IanSY-Huang/workspace" >
     <linkfile dest="buildFirmware_NXPEVK.sh" src="buildFirmware_NXPEVK.sh"/>
-    <linkfile dest="buildFirmware_PE100A.sh" src="buildFirmware_PE100A.sh"/>
+    <linkfile dest="buildFirmware_PE100A_SYS.sh" src="buildFirmware_PE100A_SYS.sh"/>
+    <linkfile dest="buildFirmware_PE100A_MB.sh" src="buildFirmware_PE100A_MB.sh"/>
   </project>
 </manifest>
